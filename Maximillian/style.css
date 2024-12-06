@@ -32,6 +32,15 @@ body {
   top: 0;
   color: var(--navy);
 }
+.mobile-nav span{
+  font-size: 2rem;
+  font-family: 'UnifrakturCook';
+  
+}
+.mobile-nav p{
+  font-size: 1.1rem;
+  font-family: 'Overlock';
+}
 .harmburgeropen {
   display: none;
   padding: 5px;
@@ -86,6 +95,7 @@ li {
   background-color: inherit;
   padding: 1rem;
   border-radius: 5px;
+  font-family: "Poppins";
 }
 ul a {
   color: var(--navy);
@@ -191,6 +201,7 @@ ul a {
   font-size: 1.1rem;
   margin-top: 2rem;
   font-weight: bold;
+  font-family: "Poppins";
 }
 .gallerya {
   align-self: center;
@@ -200,12 +211,12 @@ ul a {
   text-align: center;
   padding: 2rem 0.5rem;
   line-height: 1.9rem;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--sky);
   margin: 2rem 0;
   color: var(--navy);
 }
 .experiencesdivmain h2 {
+  font-family: "Overlock";
   margin-bottom: 1rem;
   font-size: 1.7rem;
   padding: 0 2rem;
@@ -214,7 +225,8 @@ ul a {
 .experiencesdivmain p {
   margin-bottom: 1rem;
   padding: 0 1.5rem;
-  font-size: 1.1rem;
+  font-size: .9rem;
+  font-family: "Poppins";
 }
 .imagesslidemain {
   padding: 10px;
@@ -233,6 +245,7 @@ ul a {
   font-weight: bold;
   text-align: center;
   color: var(--navy);
+  font-family: 'Merienda';
 }
 .imagesslidediv {
   height: fit-content;
@@ -248,9 +261,9 @@ ul a {
   border-top-right-radius: 5px;
 }
 .imagesslidediv p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Poppins';
   padding: 5px;
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.2rem;
   text-align: center;
   padding: 10px;
@@ -265,19 +278,22 @@ ul a {
   padding: 1.5rem;
   text-align: center;
   border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins';
   color: var(--navy);
 }
 .percentoff {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1.3rem;
+  font-family: "Overlock";
   line-height: 2.2rem;
 }
 .chooseadventure {
-  font-size: 1rem;
+  font-size: .9rem;
+  font-weight: 500;
   margin-bottom: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.9rem;
+  font-family: 'Poppins';
 }
 
 .btn {
@@ -285,6 +301,7 @@ ul a {
   height: 100%;
   padding: 10px;
   border-radius: 5px;
+  font-family: 'Poppins';
   outline: none;
   font-size: 1rem;
   font-weight: bold;
@@ -310,7 +327,7 @@ ul a {
   border-radius: 5px;
   color: var(--navy);
   background-color: var(--sky);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Overlock';
   text-align: center;
   height: fit-content;
 }
@@ -326,36 +343,43 @@ ul a {
   margin-top: 0.7rem;
 }
 .doubleimpactmain h1 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   line-height: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 .doubleimpactmain p {
-  line-height: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 500;
   margin-bottom: 0.8rem;
+  font-size: .9rem;
+  font-family: "Poppins";
 }
 .travelgroupmain {
   background-color: var(--sky);
   padding: 2rem 1.5rem;
   color: var(--navy);
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins';
 }
 .travelgroupmain p {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.9rem;
+  font-family: "Overlock";
   margin: 1rem 0;
 }
 .travelgroupmain h3 {
   font-weight: bold;
   font-size: 1.32rem;
+  line-height: 2rem;
   margin-bottom: 2rem;
+  font-family: "Overlock";
 }
 .travelgroupmain h4 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1rem;
   margin-bottom: 1rem;
+  font-family: "Overlock";
 }
 .whychooseusmain {
   padding: 10px;
@@ -372,7 +396,7 @@ ul a {
   border-radius: 5px;
   margin-bottom: 1rem;
   padding: 1rem 1rem 1.5rem 1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Poppins';
 }
 .whychooseussub div {
   display: flex;
@@ -385,16 +409,18 @@ ul a {
   margin-bottom: 2rem;
 }
 .whychooseussub h4 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
   margin-bottom: 1rem;
+  font-family: "Overlock";
 }
 .whychooseussub p {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 0.9rem;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   text-transform: capitalize;
   margin-bottom: 1rem;
+  font-family: 'Poppins';
 }
 .whychooseussub a {
   color: rgba(94, 132, 255, 0.973);
@@ -460,7 +486,7 @@ ul a {
 .formdiv h2 {
   margin-bottom: 1rem;
   line-height: 1.5rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Poppins';
 }
 form {
   display: flex;
