@@ -1,0 +1,83 @@
+// const imageData = [
+//   {
+//     id: 1,
+//     title: "Beautiful Sunset",
+//     description: "A breathtaking sunset over the mountains.",
+//     imageUrl: "images/sunset.jpg",
+//     details: "This sunset was captured on a summer evening in the Alps.",
+//     relatedImages: [
+//       "images/sunset1.jpg",
+//       "images/sunset2.jpg",
+//       "images/sunset3.jpg"
+//     ]
+//   },
+//   {
+//     id: 2,
+//     title: "Serene Beach",
+//     description: "A tranquil beach with crystal clear waters.",
+//     imageUrl: "images/beach.jpg",
+//     details: "The beach is located in the Maldives and is famous for its serenity.",
+//     relatedImages: [
+//       "images/beach1.jpg",
+//       "images/beach2.jpg",
+//       "images/beach3.jpg"
+//     ]
+//   },
+//   // Add more objects as needed
+// ];
+
+
+// <div id="gallery"></div>
+// <div id="detailsModal" style="display: none;">
+//   <h2 id="modalTitle"></h2>
+//   <p id="modalDescription"></p>
+//   <p id="modalDetails"></p>
+//   <div id="relatedImages"></div>
+//   <button onclick="closeModal()">Close</button>
+// </div>
+
+
+// const gallery = document.getElementById("gallery");
+// const detailsModal = document.getElementById("detailsModal");
+// const modalTitle = document.getElementById("modalTitle");
+// const modalDescription = document.getElementById("modalDescription");
+// const modalDetails = document.getElementById("modalDetails");
+// const relatedImages = document.getElementById("relatedImages");
+
+// // Populate the gallery
+// imageData.forEach((item) => {
+//   const imgElement = document.createElement("img");
+//   imgElement.src = item.imageUrl;
+//   imgElement.alt = item.title;
+//   imgElement.style.cursor = "pointer";
+//   imgElement.addEventListener("click", () => openDetails(item));
+//   gallery.appendChild(imgElement);
+// });
+
+// // Function to open details
+// function openDetails(item) {
+//   modalTitle.textContent = item.title;
+//   modalDescription.textContent = item.description;
+//   modalDetails.textContent = item.details;
+
+//   // Clear and add related images
+//   relatedImages.innerHTML = "";
+//   item.relatedImages.forEach((url) => {
+//     const img = document.createElement("img");
+//     img.src = url;
+//     img.alt = "Related Image";
+//     img.style.margin = "5px";
+//     relatedImages.appendChild(img);
+//   });
+
+//   detailsModal.style.display = "block";
+// }
+
+// // Function to close modal
+// function closeModal() {
+//   detailsModal.style.display = "none";
+// }
+
+
+
+
