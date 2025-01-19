@@ -904,6 +904,7 @@ form .forminput {
   background-color: inherit;
   outline: none;
   font-family: "Poppins";
+  padding: 0 10px;
   border-bottom: 1px solid var(--white);
 }
 form .forminput::placeholder {
@@ -1140,7 +1141,7 @@ footer img{
     justify-content:space-evenly;
   }
   .formdiv{
-    top:20%;
+    top:11%;
     right:30%;
     left:30%;
     bottom:auto;
