@@ -992,7 +992,7 @@ footer img{
 .constrution {
   display: none;
 }
-@media (min-width: 600px) {
+@media (min-width: 878px) {
   .uldiv {
     display: flex;
     flex-direction: row;
